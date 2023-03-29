@@ -1,0 +1,124 @@
+/*Autores: Juan Pedro Puig - 281088, Nicolás Valsecchi - 192765*/
+
+body {
+  background-color: beige;
+}
+
+/*Header*/
+header {
+  text-align: center;
+  color: maroon;
+  background-image: url('../img/geometric-diamond-tile-minimal-graphic-260nw-610513562.jpg');
+  padding-bottom: 0.5px;
+}
+
+a {
+  color: maroon;
+}
+
+/*Navigation bar*/
+nav {
+  text-align: center;
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+}
+
+/*Elementos*/
+main {
+  width: 65%;
+}
+
+section {
+  background-color: #deb57c;
+  padding: 6%;
+  border: 1px solid;
+  border-radius: 30px;
+}
+
+article,
+aside {
+  background-color: wheat;
+  padding: 0% 4% 2% 4%;
+  border-radius: 30px;
+}
+
+/*Tags de interacción*/
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input {
+  width: 180px;
+}
+
+select {
+  width: 188px;
+}
+
+button {
+  width: 175px;
+}
+
+table {
+  border: 1px solid black;
+  margin-top: 2%;
+}
+
+td {
+  border: 1px solid black;
+}
+
+tr {
+  text-align: center;
+}
+
+/*Aside*/
+aside {
+  float: right;
+  width: 20%;
+  padding: 4%;
+}
+
+aside img {
+  max-width: 140px;
+}
+
+.google {
+  display: block;
+  margin: auto;
+}
+
+/*Footer*/
+footer {
+	background-color: #CC8C00;
+  padding: 1px 0;
+}
+
+footer p {
+	text-align: center;
+	color: white;
+} 
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: white;
+  }
+
+  main {
+    width: 100%;
+    float: left;
+  }
+  
+  aside {
+    width: 92%;
+  }
+
+  footer {
+    clear: both;
+  }
+}

@@ -1,0 +1,123 @@
+<!--Autores: Juan Pedro Puig - 281088, Nicolás Valsecchi - 192765-->
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/clases.js"></script>
+    <script src="js/funciones.js"></script>
+    <title>Celulares SA</title>
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Celulares SA</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#comparacion">Comparar</a></li>
+        <li><a href="#resumen">Resumen</a></li>
+        <li><a href="#pie">Pie de página</a></li>
+      </ul>
+    </nav>
+    
+    <aside>
+      <h2>Recomendaciones</h2>
+
+      <p>Para elegir un celular es recomendable considerar, además del precio, el sistema operativo, el tamaño de la pantalla y la memoria disponible.</p>
+      <br>
+      <p>Le sugerimos visitar estos sitios para asesorarse sobre algunos celulares del mercado o utilizar el buscador.</p>
+      <br>
+      
+      <a href="https://www.samsung.com/uy/smartphones/" target="_blank">Samsung</a>
+      <br>
+      <br>
+      <a href="https://www.apple.com/iphone/" target="_blank">Apple</a>
+      <br>
+      <br>
+      <a href="https://www.mi.com/global" target="_blank">Xiaomi</a>
+      <br>
+      <br>
+      
+      <img src="img/pngwing.com.png" alt="Google Search" class="google">
+      <input type="text" name="google-search" class="google" id="texto-google">
+      <button class="google" id="boton-google">Google Search</button>
+    </aside>
+
+    <main>
+      <section>
+        <h2>Ingreso de datos</h2>
+
+        <article>
+          <h2>Marcas</h2>
+
+          <form id="form-marca">
+            <label for="marca">Marca</label>
+            <input type="text" id="marca" maxlength="25" required>
+            <br>
+            <label for="comentarios">Comentarios</label required>
+            <input type="text" id="comentarios" maxlength="25">
+          </form>
+          <br>
+          <button id="registrar-marca">Registrar Marca</button>
+        </article>
+
+        <article>
+          <h2>Celulares</h2>
+          <form id="form-celular">
+            <label for="marca-select">Marca</label>
+            <select name="marca-select" id="marca-select"></select>
+            <br>
+            <label for="modelo">Modelo</label>
+            <input type="text" id="modelo" name="modelo" maxlength="25" required>
+            <br>
+            <label for="descripcion">Descripción</label>
+            <input type="text" id="descripcion" name="descripcion" maxlength="25">
+            <br>
+            <label for="precio">Precio</label>
+            <input type="number" id="precio" name="precio" maxlength="25" min="0" required>
+            <br>
+            <label for="pantalla">Pantalla</label>
+            <input type="text" id="pantalla" name="pantalla" maxlength="25">
+            <br>
+            <label for="memoria">Memoria</label>
+            <input type="text" id="memoria" name="memoria" maxlength="25">
+            <br>
+            <label for="so">Sist. Operativo</label>
+            <input type="text" id="so" name="so" maxlength="25">
+          </form>
+          <br>
+          <button id="registrar-celular">Registrar celular</button>
+        </article>
+      </section>
+
+      <section  id="comparacion">
+        <h2>Comparación</h2>
+
+        <label for="select-modelo">Modelo</label>
+        <select name="select-modelo" id="select-modelo"></select>
+        <button id="agregar-tabla">Agregar en tabla</button>
+        <button id="vaciar-tabla">Vaciar tabla</button>
+
+        <table id="tabla-comparar"></table>
+      </section>
+
+      <section id="resumen">
+        <h2>Resumen</h2>
+        <p id="celulares-registrados"></p>
+        <p id="promedio"></p>
+        <p id="">Marcas con la máxima cantidad de celulares (ordenadas por marca):</p>
+        <ul id="lista-max"></ul>
+        <p id="mas-caro"></p>
+      </section>
+    </main>
+
+    <footer id="pie">
+      <p>Página desarrollada por Juan Pedro Puig 281088 y Nicolás Valsecchi 192765</p>
+    </footer>
+  </body>
+</html>
