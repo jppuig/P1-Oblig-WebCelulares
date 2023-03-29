@@ -1,4 +1,4 @@
-# Obligatorio de Programación 1 - (HTML+CSS+JS)
+# Web Tienda de Celulares - Obligatorio de Programación 1 - (HTML+CSS+JS)
 
 La página debe cubrir los requisitos de diseño planteados, validar completamente con los estándares de W3C
 y ser funcional. Para el diseño se deben utilizar herramientas vistas en el curso.
