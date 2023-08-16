@@ -1,5 +1,7 @@
 # Tienda de Celulares Web - Obligatorio de Programación 1 - (HTML+CSS+JS)
 
+### Este README hace referencia al pdf que se encuentra en el repositorio el cual es el original.
+
 La página debe cubrir los requisitos de diseño planteados, validar completamente con los estándares de W3C
 y ser funcional. Para el diseño se deben utilizar herramientas vistas en el curso.
 
